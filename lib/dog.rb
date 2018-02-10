@@ -7,7 +7,7 @@ class Dog
     @@all = []
   end
 
-  def all
+  def self.all
     @@all.each do |ele|
       puts ele
     end
