@@ -9,7 +9,7 @@ class Dog
 
   def self.all
     @@all.each do |ele|
-      puts ele
+      puts ele.name
     end
   end
 
