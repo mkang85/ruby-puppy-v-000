@@ -10,6 +10,7 @@ class Dog
   def self.all
     @@all.each do |ele|
       puts ele
+    end
   end
 
   def initialize(name)
